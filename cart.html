@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rymo.fashion</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome 6.x -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  rel="stylesheet"
+/>
+
+        
+    <link rel="stylesheet" href="style.css">
+
+</head>     
+<body>
+    <!--NAVIGATION-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  py-3 fixed-top" >
+  <div class="container">
+    <img src="img/logo1.png" alt="">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i id="bar " class="fa-solid fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+        
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+
+          <li class="nav-item">
+          <a class="nav-link" href="shop.html">SHOP</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="blog.html">BLOG</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">CONTACT US</a>
+        </li>
+      <li class="nav-item">
+         <i class="fa-solid fa-magnifying-glass"></i>      
+        <i class="fa-solid fa-bag-shopping"></i>
+
+        </li>
+    </div>
+  </div>
+</nav>
+<section id="blog-hOME" class="pt-5 mt-3 container">
+     
+        <h2 class="font-weight-bold pt-5">SHOPPING CART </h2>
+        <hr>
+</section>
+<section id="cart-container" class="container my-5">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Total</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                <td><img src="img/shoes/1.jpg" alt=""></td>
+                <td><h5>Handbag Fringila</h5></td>
+                <td><h5>$75.00</h5></td>
+                <td><input class="w-25 pl-1 " value="1" type="number"></td>
+                <td><h5>$130.00</h5></td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                <td><img src="img/shoes/2.jpg" alt=""></td>
+                <td><h5>Handbag Fringila</h5></td>
+                <td><h5>$75.00</h5></td>
+                <td><input class="w-25 pl-1 " value="1" type="number"></td>
+                <td><h5>$130.00</h5></td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                <td><img src="img/shoes/3.jpg" alt=""></td>
+                <td><h5>Handbag Fringila</h5></td>
+                <td><h5>$75.00</h5></td>
+                <td><input class="w-25 pl-1 " value="1" type="number"></td>
+                <td><h5>$130.00</h5></td>
+            </tr>
+        </tbody>
+    </table>
+
+</section>
+<section id="cart-bottom" class="container">
+  <div class="row">
+    <div class="coupon col-lg-6 col-md-6 col-12 mb-4">
+      <div>
+        <h5>COUPON</h5>
+        <p> Enter your coupon if you have one</p>
+        <input type="text" placeholder="Coupon Code">
+        <button>Apply Button</button>
+      </div>
+    </div>
+    <div class="total col-lg-6 col-md-6 col-12 ">
+      <div>
+        <h5>Cart Total</h5>
+        <div class="d-flex justify-content-between">
+          <h6>Subtotal</h6>
+          <p>$215.00</p>
+        </div>
+      <div class="d-flex justify-content-between">
+        <h6>Shipping</h6>
+        <p>$215.00</p>
+      </div>
+      <hr class="second-hr">
+      <div class="d-flex justify-content-between">
+        <h6>Total</h6>
+        <p>$215.00</p>
+      </div>
+      <button class="ml-auto">Proceed to check out</button> 
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<footer class="mt-5 py-5">
+  <div class="row container mx-auto pt-5">
+    <div class="footer-one col-lg-3 col-md-6 col-12">
+      <img src="img/logo2.png" alt="">
+      <p class="pt-3">We specialize in stylish, high-quality products that suit every lifestyle.
+Our goal is to make fashion accessible, affordable, and sustainable for everyone.
+With a focus on timeless design and premium materials, we ensure you always look and feel your best.
+Your satisfaction is our top priority — shop with confidence and enjoy a seamless experience!</p>
+    </div>
+    <div class="footer-one col-lg-3 col-md-6 col-12">
+      <h5 class="pb-2">Featured</h5>
+      <ul class="text-uppercase list-unstyled">
+        <li>
+          <a href="#">men</a></li>
+           <li>
+          <a href="#">women</a></li>
+           <li>
+          <a href="#">girls</a></li>
+           <li>
+          <a href="#">new arrivals</a></li>
+           <li>
+          <a href="#">shoes</a></li>
+           <li>
+          <a href="#">cloths</a></li>
+          </ul>
+    </div>
+     <div class="footer-one col-lg-3 col-md-6 col-12">
+    <h5 class="pb-2">Contact Us </h5>
+    <div>
+      <h6 class="text-uppercase ">Address</h6>
+      <P>123 Sreeet name US</P>
+    </div>
+    <div>
+      <h6 class="text-uppercase ">Phone</h6>
+      <P>123-456-7890</P>
+    </div>
+      <div>
+      <h6 class="text-uppercase ">EMAIL</h6>
+      <P>EMAIL@.com</P>
+    </div>
+    </div>
+  </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright mt-5">
+    <div class="row container mx-auto">
+      <div class="col-lg-3 col-md-6 col-12">
+        <img src="img/payment.png" alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 text-nowrap">
+        <p>rymo ecommrce © 2021 . All rights reserved </p>
+      </div>
+    </div>
+  </div>
+</footer>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+            integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+            integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+            crossorigin="anonymous"></script>
+</body>
+</html>
